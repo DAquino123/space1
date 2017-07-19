@@ -15,7 +15,11 @@ class GameScene: SKScene {
     private var spinnyNode : SKShapeNode?
     
     override func didMove(to view: SKView) {
-        
+        let myLabel = SKLabelNode(fontNamed: "Chalkduster")
+        myLabel.text = "Hello World"
+        myLabel.fontSize = 65
+        myLabel.position = CGPoint(x: self.frame.midX, y: self.frame.midY)
+        self.addChild(myLabel)
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {
@@ -87,3 +91,4 @@ class GameScene: SKScene {
         // Called before each frame is rendered
     }
 }
+
