@@ -14,6 +14,7 @@
 		94A480601F1FAC4F008AFA85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A4805E1F1FAC4F008AFA85 /* Main.storyboard */; };
 		94A480621F1FAC4F008AFA85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A480611F1FAC4F008AFA85 /* Assets.xcassets */; };
 		94A480651F1FAC4F008AFA85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A480631F1FAC4F008AFA85 /* LaunchScreen.storyboard */; };
+		94A54CD01F20DA91006C0436 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A54CCF1F20DA91006C0436 /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		94A480611F1FAC4F008AFA85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A480641F1FAC4F008AFA85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A480661F1FAC4F008AFA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A54CCF1F20DA91006C0436 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				94A480541F1FAC4F008AFA85 /* AppDelegate.swift */,
 				94A480581F1FAC4F008AFA85 /* Actions.sks */,
 				94A4805A1F1FAC4F008AFA85 /* GameScene.swift */,
+				94A54CCF1F20DA91006C0436 /* Enemy.swift */,
 				94A4805C1F1FAC4F008AFA85 /* GameViewController.swift */,
 				94A4805E1F1FAC4F008AFA85 /* Main.storyboard */,
 				94A480611F1FAC4F008AFA85 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A54CD01F20DA91006C0436 /* Enemy.swift in Sources */,
 				94A4805B1F1FAC4F008AFA85 /* GameScene.swift in Sources */,
 				94A4805D1F1FAC4F008AFA85 /* GameViewController.swift in Sources */,
 				94A480551F1FAC4F008AFA85 /* AppDelegate.swift in Sources */,
@@ -309,6 +313,7 @@
 				94A4806B1F1FAC4F008AFA85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
