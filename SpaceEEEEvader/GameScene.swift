@@ -31,7 +31,7 @@ SKPhysicsContactDelegate{
     var levelIncrease = 5
     
     var enemies = [Enemy]()
-    var enemyHealth = 1
+    var enemyHealth = 3
     
     let hero = SKSpriteNode(imageNamed: "space")
     let heroSpeed: CGFloat = 100.0
